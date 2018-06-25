@@ -740,6 +740,7 @@ Processing by PostsController#index as HTML
   Rendered posts/index.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35m (2.9ms)[0m  DELETE FROM "posts";
   [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
@@ -795,3 +796,5 @@ Processing by PostsController#index as HTML
   Rendered posts/index.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms)
   [1m[35m (0.2ms)[0m  rollback transaction
+=======
+>>>>>>> df35564930480b96e0b0a651f4c891ac2df372ca
